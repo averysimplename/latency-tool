@@ -1,2 +1,12 @@
-# latency-tool
-Schedules a precise Add-to-Cart click (America/Los_Angeles time) using NTP offset and monotonic deadlines.
+macOS
+
+chmod +x scripts/setup.sh scripts/run.sh
+./scripts/setup.sh
+./scripts/run.sh
+
+
+Windows
+
+Set-ExecutionPolicy -Scope Process Bypass
+.\scripts\setup.ps1
+.\scripts\run.ps1
