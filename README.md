@@ -14,4 +14,6 @@ Set-ExecutionPolicy -Scope Process Bypass
 
 ############
 
-the doctor.py can check if you're up to scruff but it seems to allow progression even if you aren't in the pip env so screw it
+doctor.py now works if you want to check that your system is ready to rock and roll:
+
+python3 doctor.py
